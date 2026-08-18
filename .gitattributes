@@ -1,0 +1,12 @@
+# Normalize line endings
+# Do not edit manually
+Cargo.lock linguist-generated
+*.md linguist-documentation
+*.ico binary
+src/** linguist-detectable
+*.json linguist-detectable=false
+
+public/* linguist-vendored
+*.png binary
+public/*.html linguist-vendored
+*.yml linguist-detectable=false
